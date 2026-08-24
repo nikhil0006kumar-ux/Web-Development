@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Design</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background: #dfeaf3;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            width: 330px;
+            background: white;
+            padding: 15px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .card img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+
+        .tags {
+            margin-top: 15px;
+        }
+
+        .tags span {
+            display: inline-block;
+            padding: 6px 15px;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            font-size: 13px;
+            color: gray;
+            margin-right: 8px;
+        }
+
+        h2 {
+            margin-top: 18px;
+            font-size: 32px;
+            color: #222;
+        }
+
+        p {
+            margin-top: 15px;
+            color: gray;
+            line-height: 28px;
+            font-size: 17px;
+        }
+
+        .btn {
+            text-align: center;
+            margin-top: 25px;
+        }
+
+        button {
+            border: none;
+            background: #d8ebff;
+            color: #1f7cff;
+            padding: 12px 28px;
+            border-radius: 30px;
+            font-size: 15px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: #1f7cff;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+
+        <img src="https://img.magnific.com/free-photo/woman-hand-holding-camera-standing-top-rock-nature-travel-concept_335224-887.jpg?semt=ais_test_b&w=740&q=80"
+            alt="Lake Image">
+
+        <div class="tags">
+            <span>Nature</span>
+            <span>Lake</span>
+        </div>
+
+        <h2>Lago di Braies</h2>
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Consectetur sodales morbi dignissim sed diam pharetra vitae ipsum odio.
+        </p>
+
+        <div class="btn">
+            <button>Read More</button>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
