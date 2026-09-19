@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables - HTML</title>
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    table {
+        width: 80%;
+        border-collapse: collapse;
+        background: #fff;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        overflow: hidden;
+    }
+    
+    th {
+        background-color: #e23744;
+        color: white;
+        padding: 15px;
+        text-align: left;
+        font-size: 18px;
+    }
+
+    td {
+        padding: 12px 15px;
+        border-bottom: 1px solid #ddd;
+        border: 2px solid black;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    tr:hover {
+        background-color: #ffe6e8;
+        transition: 0.3s;
+    }
+
+    caption {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 15px;
+        color: #333;
+    }
+</style>
+</head>
+
+<body>
+    <!-- Head of the table -->
+    <h1>Tables in HTML</h1>
+    <table>
+        <thea>
+            <tr>
+                <th>Name</th>
+                <th>Role</th>
+                <th>Salary</th>
+            </tr>
+        </thea>
+        <!-- Body of the table -->
+        <tbody>
+            <tr>
+                <td>Nikhil</td>
+                <td>Software developer</td>
+                <td>$70000</td>
+            </tr>
+
+            <tr>
+                <td>Rohan</td>
+                <td>Software Helper</td>
+                <td>$7</td>
+            </tr>
+
+            <tr>
+                <td>Rohan</td>
+                <td>Software Helper</td>
+                <td>$7</td>
+            </tr>
+
+            <tr>
+                <td>Shivam</td>
+                <td>ML Engineer</td>
+                <td>$100</td>
+            </tr>
+
+            <tr>
+                <td>Renuka</td>
+                <td>AI Engineer</td>
+                <td>$100000</td>
+            </tr>
+
+            <tr>
+                <td>Thank</td>
+                <td colspan="2">You</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
